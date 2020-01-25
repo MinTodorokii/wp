@@ -47,10 +47,7 @@ footer {
 </style>
 </head>
 <body>
-  <h1>Press here</h1x>
- 
- 
-  <script>
+   <script>
     function generator (){
       var x = Math.floor((Math.random()*6)+1);
        console.log(x);
@@ -60,5 +57,6 @@ footer {
   }
 </script>
   
+  <h1>Press here</h1x>
 </body>
 </html>
