@@ -20,7 +20,7 @@ body {
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Eras Light ITC Regular', cursive;
   text-shadow: 3px 0 #232931;
   font-size: 8rem;
   color: #fbe1f8;
