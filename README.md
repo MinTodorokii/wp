@@ -21,7 +21,7 @@ body {
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
+  text-shadow: 3px 0 #232931;
   font-size: 8rem;
   color: #ae788a;
 }
@@ -46,5 +46,6 @@ footer {
 </style>
 </head>
 <body>
+  <h1>Press here</h1>
 </body>
 </html>
