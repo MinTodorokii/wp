@@ -20,7 +20,7 @@ body {
 
 h1 {
   margin: 30px;
-  font-family: 'Eras Light ITC Regular', cursive;
+  font-family: 'Britannic Bold', cursive;
   text-shadow: 3px 0 #232931;
   font-size: 8rem;
   color: #fbe1f8;
@@ -30,7 +30,7 @@ h1 {
 p {
   font-size: 2rem;
   color: #fbe1f8;
-  font-family: 'Eras Light ITC Regular', cursive;
+  font-family: 'Britannic Bold', cursive;
 }
 
 img {
@@ -41,7 +41,7 @@ footer {
   margin-top: 5%;
   color: #fbe1f8;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Britannic Bold', cursive;
 
 }
 </style>
