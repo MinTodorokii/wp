@@ -1,5 +1,6 @@
 <html>
 <head>
+  <title>Igra</title>
 <style>
 .container {
   width: 70%;
