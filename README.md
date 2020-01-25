@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #c4929d;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #ae788a;
   font-family: 'Indie Flower', cursive;
 }
 
