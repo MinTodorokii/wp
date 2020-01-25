@@ -23,12 +23,12 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 3px 0 #232931;
   font-size: 8rem;
-  color: #62494f;
+  color: #f3caf3;
 }
 
 p {
   font-size: 2rem;
-  color: #62494f;
+  color: #f3caf3;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -38,7 +38,7 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #62494f;
+  color: #f3caf3;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
