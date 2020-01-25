@@ -47,6 +47,18 @@ footer {
 </style>
 </head>
 <body>
-  <h1>Press here</h1>
+  <h1>Press here</h1x>
+ 
+ 
+  <script>
+    function generator (){
+      var x = Math.floor((Math.random()*6)+1);
+       console.log(x);
+        document.GetElementById('divImage').innerHTML ='
+  <img src="img/dice${x}.png" style="width:300px;">
+  '
+  }
+</script>
+  
 </body>
 </html>
