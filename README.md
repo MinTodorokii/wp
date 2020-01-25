@@ -30,7 +30,7 @@ h1 {
 p {
   font-size: 2rem;
   color: #fbe1f8;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Eras Light ITC Regular', cursive;
 }
 
 img {
