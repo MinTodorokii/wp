@@ -48,13 +48,8 @@ footer {
 </style>
 </head>
 <body>
-<img id="die" src="/wp/dice1.jpg" width="50" height="50">
-<img id="die" src="/wp/dice2.png" width="50" height="50">
-<img id="die" src="/wp/dice3.png" width="50" height="50">
-<img id="die" src="/wp/dice4.png" width="50" height="50">
-<img id="die" src="/wp/dice5.png" width="50" height="50">
-<img id="die" src="/wp/dice6.png" width="50" height="50">  
-  
+<img id="die" src="/MIA/dice1.jpg" width="50" height="50">
+
 <button onclick="AniDice()">Roll Dice</button>
 <button onclick="stopDice()">Stop</button>
 
