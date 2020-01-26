@@ -53,7 +53,7 @@ footer {
 <body>
   
  <h1>Klikni ovdje!</h1> 
-<img src="/MIA/tae.jpeg" alt="taee" style="width:128px;height:128px;">
+<img src="/MIA/BTS/tae.jpeg" alt="taee" style="width:128px;height:128px;">
    
 </body>
 </html>
