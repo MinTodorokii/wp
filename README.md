@@ -53,7 +53,20 @@ footer {
 <body>
   
  <h1>Klikni ovdje!</h1> 
-<img src="/MIA/BTS/tae.jpeg" alt="tae" style="width:128px;height:128px;">
-   
+<script> 
+function rollDice(){
+  var die1 = document.getElementById("die1");
+  var die2 = document.getElementById("die2");
+  var status = document.getElementById("status");
+  var d1 = Math.floor(Math.random() * 6) + 1;
+  var d2 = Math.floor(Math.random() * 6) + 1;
+  die1.innerHTML = d1;
+  die2.innerHTML = d2;
+  status.innerHTML = "Dobili ste"
+  if(d1 == d2){
+       status.innerHTML +="neriješeno!!"
+  }
+  }
+</script>
 </body>
 </html>
