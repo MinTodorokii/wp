@@ -1,9 +1,7 @@
 <html>
 <head>
   <title>Igra</title>
-   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-   <title>JavaScript Graphical Dice Function</title>
-   <meta name=viewport content="width=device-width, initial-scale=1">
+
 <style>
 .container {
   width: 70%;
