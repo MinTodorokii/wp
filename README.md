@@ -1,10 +1,9 @@
 <html>
 <head>
   <title>Igra</title>
-  <meta charset="UTF-8">
-        <meta name="viewport content=width=device, initial-scale=1,0">
-        <meta http-eyuiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+   <title>JavaScript Graphical Dice Function</title>
+   <meta name=viewport content="width=device-width, initial-scale=1">
 <style>
 .container {
   width: 70%;
@@ -51,82 +50,27 @@ footer {
 </style>
 </head>
 <body>
-<input type="button" value="Roll The Dice" onClick="rollDice()" />
-<br />
+<img id="die" src="1.jpg" width="50" height="50">
 
-<script type="text/javascript">
-var score = 0;
-var maxScore = 50;
-var rolls = 0;
-var maxRolls = 20;
+<button onclick="AniDice()">Roll Dice</button>
+<button onclick="stopDice()">Stop</button>
 
+<script>
 
-function rollDice()
+function AniDice()
 {
-    var x = Math.floor( Math.random() * 6 ) + 1;
-    var y = Math.floor( Math.random() * 6 ) + 1;
-
-    if( x == y )
-    {
-        score = getScore( x );
-        alert("You threw a Double " + x + " Your Score is "+ score);
-    }
-    else
-    {
-        alert("You threw a " + x + " and a " + y + " Your Score is " + score);
-    }
-
-    rolls++;
-
-    if (rolls == maxRolls && score < maxScore)
-
-    {
-
-        alert("Sorry You Lose!");
-
-        score = 0;
-
-        rolls = 0;
-
-        return;
-
-    }
-
-    else if (score >= maxScore)
-    {
-        alert("Congratulations You Win!");
-        score = 0;
-        rolls = 0;
-        return;
-    }
+myVar=setInterval(rolldice,20)
 }
 
-function getScore(x)
+function rolldice()
 {
-    switch( x )
-    {
-        case 1:
-            score += 5;
-            break;
-        case 2:
-            score += 5;
-            break;
-        case 3:
-            score = 0;
-            break;
-        case 4:
-            score += 5;
-            break;
-        case 5:
-            score += 5;
-            break;
-        case 6:
-            score += 25;
-            break;
-    }
-
-    return score;
+var ranNum = Math.floor( 1 + Math.random() * 6 );
+var dice = document.getElementById("die");
+dice.src=ranNum+".jpg";
 }
+function stopDice()
+{clearInterval(myVar);}
 </script>
+
 </body>
 </html>
