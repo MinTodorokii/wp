@@ -50,7 +50,7 @@ footer {
 </style>
 </head>
 <body>
-<img id="die" src="1.jpg" width="50" height="50">
+<img id="die" src="/wp/dice.jpg" width="50" height="50">
 
 <button onclick="AniDice()">Roll Dice</button>
 <button onclick="stopDice()">Stop</button>
