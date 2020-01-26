@@ -1,6 +1,10 @@
 <html>
 <head>
   <title>Igra</title>
+  <meta charset="UTF-8">
+        <meta name="viewport content=width=device, initial-scale=1,0">
+        <meta http-eyuiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
 <style>
 .container {
   width: 70%;
@@ -47,7 +51,12 @@ footer {
 </style>
 </head>
 <body>
-   <script>
+  <h1>Press here</h1x>
+  
+  <button onclick="generator()">Generate</button>
+        <div id="divimage"></div>
+        
+   <script src="Igra.js">
     function generator (){
       var x = Math.floor((Math.random()*6)+1);
        console.log(x);
@@ -56,7 +65,5 @@ footer {
   '
   }
 </script>
-  
-  <h1>Press here</h1x>
 </body>
 </html>
