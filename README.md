@@ -51,19 +51,15 @@ footer {
 </style>
 </head>
 <body>
-  <h1>Press here</h1x>
   
-  <button onclick="generator()">Generate</button>
-        <div id="divimage"></div>
-        
-   <script src="Igra.js">
-    function generator (){
-      var x = Math.floor((Math.random()*6)+1);
-       console.log(x);
-        document.GetElementById('divImage').innerHTML ='
-  <img src="img/dice${x}.png" style="width:300px;">
-  '
-  }
+ <h1>Klikni ovdje!</h1> 
+ <script type = "text/javascript">
+  <!--
+document.write("<img src = \"" +Math.floor( dice1 + Math.random() dice6 + ".png\" />");
+
+// -->
 </script>
+  
+ 
 </body>
 </html>
