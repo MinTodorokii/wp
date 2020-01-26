@@ -53,13 +53,7 @@ footer {
 <body>
   
  <h1>Klikni ovdje!</h1> 
- <script type = "text/javascript">
-  <!--
-document.write("<img src =web-projekti \"" +Math.floor( dice1 + Math.random() dice6 + ".png\" />");
-
-// -->
-</script>
-  
- 
+<img src="/wp/dice1.png" alt="HTML5 Icon" style="width:128px;height:128px;">
+   
 </body>
 </html>
