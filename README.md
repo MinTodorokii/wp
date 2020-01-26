@@ -51,55 +51,82 @@ footer {
 </style>
 </head>
 <body>
- function rollSingleDice()
-{
-    return Math.floor(Math.random()*6+1);
-}
+<input type="button" value="Roll The Dice" onClick="rollDice()" />
+<br />
 
-//Make the rollDice function roll dice,
-//check for doubles, and return the
-//total score achieved by all rolls
-function rollDice(player) {
+<script type="text/javascript">
 var score = 0;
-var roll1; var roll2;
-var playerScore;
-    do {
-        roll1 = rollSingleDice();
-        roll2 = rollSingleDice();
-        score = roll1 + roll2;
-        player.addToScore(score);
-        playerScore = player.getScore();
-        console.log("Roll 1: " + roll1 + " Roll 2: " + roll2 + " Total Score: " + playerScore);
-       
-        if (roll1 == roll2) {
-            if (roll1 === 1) {
-                console.log("Snake Eyes!");
-                return true;
-            } else {
-                console.log("Congrats! Double Thrown!");
-            }
-        }
-    } while (roll1 === roll2);
-    return false;
+var maxScore = 50;
+var rolls = 0;
+var maxRolls = 20;
+
+
+function rollDice()
+{
+    var x = Math.floor( Math.random() * 6 ) + 1;
+    var y = Math.floor( Math.random() * 6 ) + 1;
+
+    if( x == y )
+    {
+        score = getScore( x );
+        alert("You threw a Double " + x + " Your Score is "+ score);
+    }
+    else
+    {
+        alert("You threw a " + x + " and a " + y + " Your Score is " + score);
+    }
+
+    rolls++;
+
+    if (rolls == maxRolls && score < maxScore)
+
+    {
+
+        alert("Sorry You Lose!");
+
+        score = 0;
+
+        rolls = 0;
+
+        return;
+
+    }
+
+    else if (score >= maxScore)
+    {
+        alert("Congratulations You Win!");
+        score = 0;
+        rolls = 0;
+        return;
+    }
 }
 
+function getScore(x)
+{
+    switch( x )
+    {
+        case 1:
+            score += 5;
+            break;
+        case 2:
+            score += 5;
+            break;
+        case 3:
+            score = 0;
+            break;
+        case 4:
+            score += 5;
+            break;
+        case 5:
+            score += 5;
+            break;
+        case 6:
+            score += 25;
+            break;
+    }
 
-function Player(name) {
-  this.name = name;
-  var score = 0; // this is a private attribute
-  this.addToScore = function(points) {
-    score = score + points;
-  };
-  this.getScore = function() {
     return score;
-  };
 }
-
-var player1 = new Player("Bobby");
-var snakeEyes = false;
-while(snakeEyes === false) {
-    snakeEyes = rollDice(player1);
-} 
- 
+</script>
 </body>
 </html>
