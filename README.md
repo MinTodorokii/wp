@@ -51,10 +51,7 @@ footer {
 </style>
 </head>
 <body>
-  
- <h1>Klikni ovdje!</h1> 
- <script>
-function rollSingleDice()
+ function rollSingleDice()
 {
     return Math.floor(Math.random()*6+1);
 }
@@ -102,7 +99,7 @@ var player1 = new Player("Bobby");
 var snakeEyes = false;
 while(snakeEyes === false) {
     snakeEyes = rollDice(player1);
-}
-</script>
+} 
+ 
 </body>
 </html>
