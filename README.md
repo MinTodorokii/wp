@@ -55,7 +55,7 @@ footer {
  <h1>Klikni ovdje!</h1> 
  <script type = "text/javascript">
   <!--
-document.write("<img src = \"" +Math.floor( dice1 + Math.random() dice6 + ".png\" />");
+document.write("<img src =web-projekti \"" +Math.floor( dice1 + Math.random() dice6 + ".png\" />");
 
 // -->
 </script>
