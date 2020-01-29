@@ -14,14 +14,33 @@
 
       <div class="dice">
         <p>Player 1</p>
-        <img class="img1" src="">
+        <img class="img1" src="C:\Users\anja\Desktop\MIA\wp">
       </div>
 
       <div class="dice">
         <p>Player 2</p>
-        <img class="img2" src="">
+        <img class="img2" src="C:\Users\anja\Desktop\MIA\wp">
       </div>
 
+<div class="dice">
+        <p>Player 2</p>
+        <img class="img3" src="C:\Users\anja\Desktop\MIA\wp">
+      </div>
+      
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img4" src="C:\Users\anja\Desktop\MIA\wp">
+      </div>
+      
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img5" src="C:\Users\anja\Desktop\MIA\wp">
+      </div>
+      
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img6" src="C:\Users\anja\Desktop\MIA\wp">
+      </div>
     </div>
 
 
